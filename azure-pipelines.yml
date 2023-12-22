@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'macos-latest'
+  vmImage: 'macOS-14'
 
 steps:
 - task: Xcode@5
@@ -17,4 +17,4 @@ steps:
     sdk: 'iphoneos'
     configuration: 'Release'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
-    xcodeVersion: 'default' # Options: 8, 9, 10, 11, 12, default, specifyPath
+    xcodeVersion: '14' # Options: 8, 9, 10, 11, 12, 14, default, specifyPath
