@@ -17,4 +17,4 @@ steps:
     sdk: 'iphoneos'
     configuration: 'Release'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
-    xcodeVersion: '14' # Options: 8, 9, 10, 11, 12, 14, default, specifyPath
+    xcodeVersion: '13' # Options: 8, 9, 10, 11, 12, default, specifyPath
